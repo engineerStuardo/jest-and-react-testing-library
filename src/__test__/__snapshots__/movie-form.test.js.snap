@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Movie form component Should match snapshot 1`] = `
+<div>
+  <div
+    data-testid="movie-form"
+  >
+    <label
+      for="title"
+    >
+      Title
+    </label>
+    <br />
+    <input
+      id="title"
+      placeholder="title"
+      type="text"
+      value=""
+    />
+    <br />
+    <label
+      for="description"
+    >
+      Description
+    </label>
+    <br />
+    <textarea
+      id="description"
+      placeholder="Description"
+      type="text"
+    />
+    <br />
+    <button
+      disabled=""
+    >
+      Create
+    </button>
+  </div>
+</div>
+`;
